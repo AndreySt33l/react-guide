@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js -help
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/steel/Developer/base-syntax--assignment-solution/node_modules/are-we-there-yet'
+
+npm manifest: 
+  {
+    "name": "react-complete-guide",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.0.0-rc.3",
+      "react-dom": "^16.0.0-rc.3",
+      "react-scripts": "1.0.13"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
